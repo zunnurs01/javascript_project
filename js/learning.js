@@ -3,20 +3,16 @@
 
 //alert() in html
 function alertFunction() {
-    alert("alert function in html");
+    alert("This is example of alert");
 }
-
-//alert() in javascript
-document.getElementById("alertfunction").addEventListener("click", alertFunction2);
-
-function alertFunction2() {
-  document.getElementById("alertfunction").innerHTML = alert("alert function in html");
-}
-
 
 
 //confirm()
 /* confirm("Hello World?"); */
+function confirmFunction() {
+    confirm("This is example of confirm");
+}
+
 
 //alert() + confirm()
 /* var confirm = confirm("Confirm?");
