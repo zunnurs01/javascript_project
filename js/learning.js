@@ -1,26 +1,34 @@
 //document.write()
-/* document.write("<h1>Hello World!</h1>"); */
+function docwritexmp() {
+    var varWindow = window.open("","_blank");
+    varWindow.document.write("<h1>Hello World!</h1>");
+    varWindow.document.close();
+};
+
 
 //alert() in html
 function alertFunction() {
     alert("This is example of alert");
-}
+};
 
 
 //confirm()
 /* confirm("Hello World?"); */
 function confirmFunction() {
     confirm("This is example of confirm");
-}
+};
 
 
 //alert() + confirm()
-/* var confirm = confirm("Confirm?");
-if (confirm) {
-    alert('You selected "Ok"');
-} else {
-    alert('You selected "Cancel"');
-} */
+function alertconfirm() {
+    var confirmation = confirm("Confirm?");
+    if (confirmation) {
+        alert('You selected "Ok"');
+    } else {
+        alert('You selected "Cancel"');
+    }
+};
+
 
 //prompt()
 /* prompt("Hello, What is your name?", "default value"); */
