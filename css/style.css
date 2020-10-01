@@ -12,6 +12,7 @@ body{
 }
 
 .card.p-3 h4, 
-.card.p-3 label {
+.card.p-3 label,
+.card.p-3 p {
     color: white;
 }
